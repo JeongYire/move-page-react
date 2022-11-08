@@ -1,0 +1,21 @@
+#header{
+    height: 100px;
+}
+
+#header > .headerColumn{
+    width: 100px;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#header > .headerColumn.on{
+    background-color: black;
+    color: white;
+    cursor: default;
+}
+
+#content{
+    flex-grow: 1;
+}
